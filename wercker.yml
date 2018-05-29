@@ -28,4 +28,10 @@ build:
         code: |
           echo "node version $(node -v) running"
           echo "npm version $(npm -v) running"
+          # Push to public docker repo
+    - internal/docker-push: 
+        username: $USERNAME
+        password: $PASSWORD
+        repository: $USERNAME/test
+        tag: latest
 
