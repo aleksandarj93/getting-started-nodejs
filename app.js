@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+
 var cities = {cities:["Amsterdam","Berlin","New York","San Francisco","Tokyo", "Beograd", "Lucani", "Kraljevo"]}
 var nesto = "Ovo je samo test da da!"
 var bla = "ovde se izvrsava wercker"
